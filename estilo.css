@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(153, 153, 252);
+    font-family: tahoma;
+
+}header{
+    font-size: 10px;
+    text-align: right;
+}
+
+section{
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 30px #777;
+}form#buscar{
+    font-size: 10px;
+    text-align: right;
+}
+.listagem{
+    width: 100%;
+    text-align: left;
+    border-collapse:collapse ;
+}.listagem tr{
+    height: 50px;
+
+}.listagem td{
+   /* border: 1px solid black; */
+    padding: 10px;
+}.listagem tr:nth-child(even){
+    background-color: #f8efeff2;
+}.listagem td:nth-child(1){
+    width: 50px;
+}.listagem td:nth-child(3){
+    width: 90px;
+}.mini{
+    width: 50px;
+}.detalhes{
+    width: 100%;
+    padding: 10px;
+}table.detalhes td{
+    padding: 10px;
+    vertical-align: top;
+    
+}
+.full{
+    height: 400px;
+}footer{
+    text-align: center;
+    font-family: arial;
+    font-size: 10px;
+}div.sucesso{
+    padding:7px 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: rgb(205, 226, 205);
+    color: rgb(0, 121, 0);
+}div.aviso{
+    padding:7px 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: rgb(251, 248, 229);
+    color: rgb(134, 110, 66);
+}div.erro{padding:7px 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: rgb(239, 223, 222);
+    color: rgb(157, 75, 69);
+}
